@@ -1,20 +1,22 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="utf-8">
-  <!-- Setting the Viewport in HTML -->
-  <meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta charset="utf-8">
+	<!-- Setting the Viewport in HTML -->
+	<meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="author" content="AshliePounds" />
   <meta name="description" content="A personal portfolio for my UX/UI design work." />
-  <title>About Me</title>
-  <!-- add normalize below -->
-  <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.0/normalize.min.css">
-  <!-- add custom font here -->
+	<title>Ashlie Pounds UX/UI Designer Orlando</title>
+	<!-- add normalize below -->
+	<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.0/normalize.min.css">
+	<!-- add custom font here -->
 <link rel="stylesheet" href="https://use.typekit.net/vpp0taa.css">
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Heebo:wght@100;500&display=swap" rel="stylesheet">
+<link rel="icon" type="image/png" href="favicon-32x32.png" sizes="32x32" />
 
-  <!-- we will continue to use our style.css file for styling -->
-  <link rel="stylesheet" type="text/css" href="css/style.css">
-
+	<!-- we will continue to use our style.css file for styling -->
+	<link rel="stylesheet" type="text/css" href="css/style.css">
 
 </head>
 
@@ -22,33 +24,36 @@
         <!-- For the header -->
         <header>
             <!-- For the navigation -->
-            <div>
-                <img src="https://via.placeholder.com/150x50?text=my-logo" alt="AshliePounds" />
+            <div class="container">
+
+                <img src="img/logo@1x.png" alt="Ashlie Pounds" class="logo" />
                 <nav>
-                    <ul>
-                        <li><a href="index.html">Work</a></li>
-                        <li><a href="about.html">About</a></li>
-                        <li><a href="#contact">Contact</a></li>
-                    </ul>
+									<ul class="navigation">
+                    <li><a href="index.html">Work</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="#contact">Contact</a></li>
+									</ul>
                 </nav>
             </div>
         </header>
         <main>
             <!-- New content -->
-            <div>
+            <div id="about" class="container">
               <div>
-                <h1>Forever Curious Digital Humanist</h1>
+                <h1>Forever <br>Curious<br> Digital<br> Humanist</h1>
                 </div>
                 <div>
-                    <h1>About</h1>
-                    <div id="My_photo">
+                    <h2 class="home-projects-title">About</h2>
+                    <div id="profilepicture">
                         <picture>
                             <source srcset="img/culturequest/aboutme/me2@1x.jpg" media="(maxwidth:767px)" />
-                            <img src="img/culturequest/aboutme/me2@2x.jpg" alt="Picture of me" />
+                            <img src="img/culturequest/aboutme/me2@2x.jpg" alt="Ashlie Pounds profile" />
                         </picture>
                     </div>
-                    <div><!-- Row -->
-                        <div><!-- column -->
+                    <div id=mystory><!-- Row -->
+                      <div class="row">
+
+                        <div class="col-md-12 col-lg-7 my story"><!-- column 1 -->
                             <h2>My Story</h2>
                             <p>
                                 “Not all those who wander are lost”. I’m proof! A born and bred South Floridian, I was always a highly creative and visually inspired individual interested in art, literature, and history from a young age. I
@@ -65,22 +70,25 @@
 
                             <a href="files/cv.pdf" target="_blank" download> Download My Resume</a>
                         </div>
-                        <div><!-- column -->
+                        <div class="col-md-12 col-lg-7 my story"><!-- column 2-->
 
                             <h2>Skills & Tools</h2>
-                            <div><!-- Row -->
-                                <div><!-- column -->
+                            <div class="row"><!-- Row -->
+                                <div class="col-md-6 col-lg-12 extra padding left"><!-- column -->
                                     <h3>Skills</h3>
                                     <ul>
                                         <li>
-                                            "User Research"
+                                            User Research
                                         </li>
                                         <li>
-                                            "User Personas"
+                                            User Personas
                                         </li>
+                                        <li>Wireframing</li>
+                                        <li>Prototyping</li>
+                                        <li>HTML5 & CSS3</li>
                                     </ul>
                                 </div>
-                                <div><!-- column -->
+                                <div class="col-md-6 col-lg-12 extra padding left"><!-- column -->
                                     <h3>Tools</h3>
                                     <ul>
                                         <li>
@@ -89,6 +97,8 @@
                                         <li>
                                             Figma
                                         </li>
+                                        <li>Usability Hub</li>
+                                        <li>Optimal Workshop</li>
                                     </ul>
                                 </div>
                             </div>
@@ -97,19 +107,18 @@
                 </div>
             </div>
         </main>
-        <footer id="contact">
+        <footer id="footer">
             <div>
                 <!-- Container -->
                 <h2>Get in Touch</h2>
-                <p>Let's work together! Get in touch: call: <a href="tel:555-555-5555">555-555-5555</a> or Skype me at <a href="apounds329">apounds329</a>. Prefer sending an email?</p>
+                <p>I'd love to hear from you!<a href="tel:555-555-5555">555-555-5555</a> or Skype me at <a href="apounds329">apounds329</a>. Prefer sending an email?</p>
                 <div>
                   <a href="mailto:apounds329@gmail.com" class="button contact">say hi</a>
-                    
+
                 </div>
-                <div>
+                <div class="footerpadding">
                     <!--Social Media Layout and Placeholders-->
-                    <ul>
-                        <li>
+
                             <a href="https://www.linkedin.com/in/ashlie-pounds-9b99611a9/" target="_blank">
                                 <svg
                                     height="50px"
@@ -129,16 +138,15 @@
                                     </g>
                                 </svg>
                             </a>
-                        </li>
-                        <li>
+
                             <a href="https://www.behance.net/ashliepounds" target="_blank">
                                 <svg
-                                    enable-background="new 0 0 56.693 56.693"
-                                    height="56.693px"
+                                    enable-background="new 0 0 60 60"
+                                    height="60px"
                                     id="Layer_1"
                                     version="1.1"
-                                    viewBox="0 0 56.693 56.693"
-                                    width="56.693px"
+                                    viewBox="0 0 60 60"
+                                    width="60px"
                                     xml:space="preserve"
                                     xmlns="http://www.w3.org/2000/svg"
                                     xmlns:xlink="http://www.w3.org/1999/xlink"
@@ -153,8 +161,7 @@
                                     </g>
                                 </svg>
                             </a>
-                        </li>
-                        <li>
+
                             <a href="https://www.instagram.com/ux.amp/">
                                 <svg
                                     height="50px"
