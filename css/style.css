@@ -7,7 +7,7 @@ Font: #2222222;
   box-sizing: border-box;
 }
 body {
-  background-color: #f6eae3;
+  background-color: #fff4ea;
   font-size: 16px; /* Sets the font size to 16px */
   font-weight: 400; /* Sets the font weight to 400 */
   line-height: 1.6; /* Sets the line-height to 1.6 * the font-size */
@@ -29,7 +29,7 @@ h1, h2, h3, h4 {
   line-height: 1.4;
 }
 h1 {
-  font-size: 9.00em;
+  font-size: 4em;
   font-weight: 700;
   line-height: 1.0;
   vertical-align: baseline;
@@ -55,11 +55,15 @@ h2.descriptor {
   text-transform: uppercase;
   text-align: left;
   letter-spacing:3.33px;
+
 }
 
 h3 {
   font-size: 2.5em;
   font-weight: 400;
+  margin: 0;
+
+
 }
 h4 {
   font-size: 1.35em;
@@ -78,31 +82,24 @@ a {
   color: #222222;
   text-decoration: none; /* No underlining */
   display: inline-block; /* since the <a> tag is inline by default, we need to change this to inline-block, but more on this in the next exercise */
-  padding:12px 18px 8px;
-  background-color: #e2e2e2;
-  border-color: #e2e2e2;
-  border-width: 1px;
   transform: translate(0px, 0px);
   transition: all 100ms ease-in-out;
-  border-style: solid;
   color: #222222; /* needed to override the default link color */
   font-weight: 400;
-  font-size:30px
-  padding: 10px;
-  border-radius: 50px;
-
+  font-size:20px;
+  padding: 5px;
 }
 a:visited { /* visited link */
   color: #222222;
 }
   a:hover {
     color: #222222;
-    margin-right: 14px;
-    border: 1px solid #222222;
-    background-color: #ffffff;
+    /*margin-right: 14px;*/
+    /*border: 1px solid #222222;*/
+    /*background-color: #ffffff;*/
     color: #222222;
     perspective-origin: 50% 100%;
-    transform: scale(1.5);
+    /*transform: scale(1.5);*/
     font-weight: 700;
     text-decoration: none;
 }
@@ -119,6 +116,8 @@ a:focus {
   display: inline-block; /* since the <a> tag is inline by default, we need to change this to inline-block, but more on this in the next exercise */
   padding:12px 18px 8px;
   background-color: #e2e2e2;
+  border-color: #e2e2e2;
+  border-width: 1px;
   border-color: #e2e2e2;
   border-width: 1px;
   transform: translate(0px, 0px);
@@ -203,17 +202,23 @@ a:hover {
 }
 .home-hero-content {
   width: 100%;
-  margin-top: 40px
+  margin-top: 40px;
+
 }
 
-.home-hero-content li+li:before {
+.home-hero-content a::before {
   content: "/";
   display: inline-block;
   margin-right: 10px;
   margin-left: 10px;
   vertical-align: middle;
-}
 
+}
+.home-hero-content a:first-of-type::before {
+  display: none;
+  margin-left: 0;
+
+}
 .center {
   max-width: 1024px;
   margin-right: auto;
@@ -292,13 +297,13 @@ nav {
 nav > ul {
   list-style-type: none;
   padding: 0;
-
 }
 nav > ul > li {
   display: inline-block;
 }
 nav > ul > li > a {
-  padding: 0 15px;
+  padding: 0;
+  margin: 0 15px;
   text-transform: lowercase;
   font-weight: 200;
   color: #4a4a4a;
@@ -307,7 +312,7 @@ nav > ul > li > a:visited {
 
 }
 nav > ul > li > a:hover {
-
+  border-top: 2px solid #4a4a4a;
 }
 nav > ul > li > a:active {
 
@@ -322,6 +327,12 @@ nav > ul > li > a:active {
 
 }
 
+.social-link {
+  font-size: 12px;
+  margin-top: 20px;
+  margin-bottom: 40px;
+}
+
 
 
 #hero {
@@ -334,36 +345,22 @@ footer {
   text-align: center;
   bottom: 0;
 }
+/* CultureQuest */
 
-/* HomeAdvice */
-
-.headerimage{
-  padding: 50px 0;
-}
-
-.whitebox {
-  background-color: #ffffff ;
-  padding: 100px 70px;
-}
-
-.bluebox {
-  background-color: #467C86;
-  padding: 100px 70px
-}
-
-.container1 {
-  width: 80%;
-  margin: auto;
-}
-
-.projectbackground {
-  background-color: #EBEBEB;
-}
-
-.container1 h2 {
+.project-title {
+  font-size: 20px;
   text-align: center;
-  margin-top: -50px;
+  letter-spacing: 0.1em;
 }
+.project-header-introduction {
+  font-family: 'Heebo', sans-serif;
+  font-weight: 200;
+  text-align: right;
+  font-size:30px;
+
+}
+
+
 
 /* Animation */
 
@@ -433,7 +430,6 @@ Medium devices (640px and larger)
   nav {
     width: auto;
     float: right;
-    margin-top: 50px;
   }
 
   .col-md-6 {
@@ -501,6 +497,7 @@ Large devices (1024px or larger)
     border-radius: 3px;
     border-bottom: 2px solid;
     transition: 0.2s opacity;
+}
 }
 
 /* ==============================
