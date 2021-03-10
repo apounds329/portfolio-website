@@ -476,13 +476,13 @@ div.pullDown a:hover:before
 }
 
 @keyframes color-change1 {
-  0% {fill: #f9a2c5;}
-  16% {fill: #a4e4f7}
-  32% {fill: #f7a284}
-  48% {fill: #f7f5a1}
-  66% {fill: #baf7a4}
-  82% {fill: #edcaf9}
-  100% {fill: #f9a2c5}
+  0% {color: #f9a2c5;}
+  16% {color: #a4e4f7}
+  32% {color: #f7a284}
+  48% {color: #f7f5a1}
+  66% {color: #baf7a4}
+  82% {color: #edcaf9}
+  100% {color: #f9a2c5}
 }
 .intro-heading span {
   animation: color-change1 6s infinite;
@@ -494,8 +494,8 @@ div.pullDown a:hover:before
   animation-fill-mode: none;
   animation-play-state: running;
   animation-name: color-change1;
-  -webkit-text-stroke: 1px #222222;
-  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke: 2px #222222;
+  -webkit-text-stroke-width: 2px;
   -webkit-text-stroke-color: rgb(34, 34, 34);
 
 }
