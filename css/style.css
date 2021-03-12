@@ -11,6 +11,7 @@ body {
   font-size: 16px; /* Sets the font size to 16px */
   font-weight: 400; /* Sets the font weight to 400 */
   line-height: 1.6; /* Sets the line-height to 1.6 * the font-size */
+
 }
 
 
@@ -82,44 +83,57 @@ img {
 }
 a {
   color: #222222;
-  text-decoration: none; /* No underlining */
+  /*text-decoration: none; /* No underlining */
   display: inline-block; /* since the <a> tag is inline by default, we need to change this to inline-block, but more on this in the next exercise */
-  transform: translate(0px, 0px);
-  transition: all 100ms ease-in-out;
+  /*transform: translate(0px, 0px);
+  transition: all 100ms ease-in-out;*/
   color: #222222; /* needed to override the default link color */
   font-weight: 400;
   font-size:20px;
   padding: 5px;
 }
+
 a:visited { /* visited link */
   color: #222222;
 }
-  a:hover {
-    color: #222222;
-    /*margin-right: 14px;*/
-    /*border: 1px solid #222222;*/
-    /*background-color: #ffffff;*/
-    color: #222222;
-    perspective-origin: 50% 100%;
-    /*transform: scale(1.5);*/
-    font-weight: 700;
-    text-decoration: none;
+a:hover {
+  color: #222222;
+  /*margin-right: 14px;*/
+  /*border: 1px solid #222222;*/
+  /*background-color: #ffffff;*/
+  color: #222222;
+  perspective-origin: 50% 100%;
+  /*transform: scale(1.5);*/
+  font-weight: 400;
+  text-decoration: none;
 }
 a:active { /* selected link */
   color: #994c30;
 }
-a:hover,
+
 a:focus {
   color: #222222;
-  text-decoration: none;
+
+}
+.box-c .custom-underline::after {
+top: 65%;
+height: 1px !important;
+width: 40%;
+left: 30%;
+background-color: rgba(255, 255, 255, 0.6);
+  transition: 0.4s ease-out all .1s;
 }
 
-p {
-  display:block;
-  margin-block-start: 1em;
-  margin-block-end: 1em;
-  margin-inline-start: 0px;
-  margin-inline-end: 0px;
+.box-c:hover .custom-underline::after {
+width: 90%;
+left: 5%;
+  transition: 0.5s ease all;
+}
+
+
+
+
+
 
 /* CultureQuest */
 }
@@ -382,6 +396,7 @@ nav > ul > li > a:active {
   margin-top: 20px;
   margin-bottom: 40px;
 }
+
 
 
 
@@ -686,7 +701,22 @@ Large devices (1024px or larger)
     line-height: 1.52;
 
   }
+  .box-c .custom-underline::after {
+  top: 65%;
+  height: 2px !important;
+  width: 40%;
+  left: 30%;
+  background-color: rgba(255, 255, 255, 0.6);
+    transition: 0.4s ease-out all .1s;
 }
+
+.box-c:hover .custom-underline::after {
+  width: 90%;
+  left: 5%;
+    transition: 0.5s ease all;
+}
+}
+
 
 /* ==============================
 X-large devices (1440px or larger)
