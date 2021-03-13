@@ -364,10 +364,7 @@ div {
 
 }
 
-nav {
-  display: inline-block;
-  width: 100%;
-}
+
 nav > ul {
   list-style-type: none;
   padding: 0;
@@ -383,6 +380,7 @@ nav > ul {
   right: 0;
   top: 2px;
   font-size: 20px;
+  padding-right: 0;
 }
 
 nav > ul > li > a {
