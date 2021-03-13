@@ -358,6 +358,7 @@ div {
 
 .logo {
   max-width: 150px;
+  min-width: 641px;
   margin:0 auto;
   display: block;
 
