@@ -108,7 +108,7 @@ a:hover {
   text-decoration: none;
 }
 a:active { /* selected link */
-  color: #994c30;
+
 }
 
 a:focus {
@@ -701,20 +701,7 @@ Large devices (1024px or larger)
     line-height: 1.52;
 
   }
-  .box-c .custom-underline::after {
-  top: 65%;
-  height: 2px !important;
-  width: 40%;
-  left: 30%;
-  background-color: rgba(255, 255, 255, 0.6);
-    transition: 0.4s ease-out all .1s;
-}
 
-.box-c:hover .custom-underline::after {
-  width: 90%;
-  left: 5%;
-    transition: 0.5s ease all;
-}
 }
 
 
