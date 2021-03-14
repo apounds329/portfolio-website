@@ -83,6 +83,9 @@ a, p, li {
   font-size: 1.40em;
 }
 
+.project-content p {
+  font-size: 1.2em;
+}
 
 img {
   width: 100%;
