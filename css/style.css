@@ -5,6 +5,10 @@ Font: #2222222;
 */
 * {
   box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    background-repeat: no-repeat;
 }
 body {
   background-color: #fff4ea;
@@ -43,7 +47,7 @@ h1 {
 h2 {
   font-size: 0.8em;
   font-weight: 700;
-  text-align: center;
+  /*text-align: center;*/
   display: block;
   margin-block-start: 0.83em;
   margin-block-end: 0.83em;
@@ -51,7 +55,7 @@ h2 {
   margin-inline-end: 0px;
 }
 
-h2.descriptor {
+.descriptor {
   font-size: 0.8em;
   font-family: 'Heebo', sans-serif;
   font-weight: 400;
@@ -75,9 +79,11 @@ h4 {
 
 a, p, li {
   font-family: 'Heebo', sans-serif;
-  font-weight: 200;
+  font-weight: 300;
   font-size: 1.40em;
 }
+
+
 img {
   width: 100%;
 }
@@ -89,11 +95,11 @@ a {
   transition: all 100ms ease-in-out;*/
   text-decoration: none;
   background-image: linear-gradient(currentColor, currentColor);
-  background-position: 50% 90%;
+  background-position: 0% 90%;
   background-repeat: no-repeat;
-  background-size: 40% 1px;
+  background-size: 110% 1px;
   transition: 0.2s ease-out all .1s;
-  font-weight: 100;
+  font-weight: 300;
   font-size:20px;
   padding: 5px;
 
@@ -115,7 +121,7 @@ a:hover {
   /*background-color: #ffffff;*/
   /*perspective-origin: 50% 100%;*/
   /*transform: scale(1.5);*/
-  font-weight: 100;
+  /*font-weight: 100;*/
   /*text-decoration: none;*/
 
 }
@@ -126,10 +132,71 @@ a:active { /* selected link */
 a:focus {
 }
 
+.project-description {
+  font-size: 20px;
+}
+
+.footer {
+  display: block;
+}
+
+.footer-module {
+  margin-left: 35px;
+  margin-right: 35px;
+}
+
+.footer-module-title {
+  margin-bottom: .25rem;
+  font-size: 22px;
+    line-height: 32px;
+    letter-spacing: -.015em;
+    display: block;
+}
+.footer-module-content {
+  font-size: 18px;
+    line-height: 24px;
+}
+p{
+  display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+
 
 
 main {
   padding-top: 56px;
+
+}
+.site-header-button {
+    position: relative;
+    height: 30px;
+    width: 32px;
+    margin-top: -1px;
+    margin-right: -6px;
+    padding: 8px 6px;
+    display: block;
+    z-index: 60;
+    border: 0;
+    border-radius: 0;
+    background-color: transparent;
+    pointer-events: all;
+    transition: transform .6s cubic-bezier(.165,.84,.44,1),-webkit-transform .6s cubic-bezier(.165,.84,.44,1);
+}
+.site-header-button.is-active {
+  transform: rotate(-180deg);
+}
+.lead {
+  font-size: 14px;
+  line-height: 24px;
+  margin-bottom: 14px;
+  font-family: 'Heebo', sans-serif;
+  font-weight: 300;
+  color: #222222
+
+
 }
 
 
@@ -192,6 +259,7 @@ main {
   font-size:30px
   padding: 10px;
   border-radius: 50px;
+  background-image: none;
 }
 .button:hover {
   margin-right: 14px;
@@ -212,6 +280,7 @@ a:hover {
 
   /*Email button*/
   .button.contact {
+    background-image: none;
   background-color: transparent;
   color: #222222;
   text-transform: lowercase;
@@ -287,6 +356,8 @@ a:hover {
   max-width: 1024px;
   margin-right: auto;
   margin-left: auto;
+  padding-left: 35px;
+  padding-right: 35px;
 }
 .home-projects {
   position: relative;
@@ -394,7 +465,7 @@ nav > ul > li > a {
   padding: 0;
   margin: 0 15px;
   text-transform: lowercase;
-  font-weight: 200;
+  font-weight: 300;
   color: #222222;
 }
 nav > ul > li > a:visited {
@@ -416,17 +487,42 @@ nav > ul > li > a:active {
 
 }
 
-a.social-link {
+.social-link {
   font-size: 12px;
   margin-top: 20px;
   margin-bottom: 40px;
-  font-weight: 400;
+  font-weight: 700;
 }
-a.social-link:hover{
-  font-weight: 400;
+.social-link:hover{
+  font-weight: 700;
 }
 
+.case-next {
+  margin-top: 80px;
+}
 
+.case-next-headline{
+  margin-bottom: 35px;
+    font-family: 'Heebo', sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: .6428571429rem;
+    letter-spacing: .37em;
+    line-height: 1;
+    text-transform: uppercase;
+
+}
+.case-next-title{
+  font-family: 'maiola', serif;
+    font-weight: 500;
+    font-size: 45px;
+    line-height: 1.2;
+}
+
+.case-next-link {
+  margin-top: 15px;
+  margin-bottom: 80px;
+}
 
 
 #hero {
@@ -436,8 +532,13 @@ a.social-link:hover{
   width: 100%;
 }
 footer {
-  text-align: center;
+  /*text-align: center;*/
+  padding-left: 35px;
+  padding-right: 35px;
   bottom: 0;
+  /*margin-top: 65px;*/
+  margin-bottom: 80px;
+
 }
 /* CultureQuest */
 
@@ -717,12 +818,52 @@ Large devices (1024px or larger)
     line-height:1.7;
   }
   .lead {
+    font-size: 14px;
+    line-height: 24px;
     margin-bottom: 14px;
     font-family: 'Heebo', sans-serif;
     font-weight: 300;
     color: #222222
-    font-size: 1.6rem;
-    line-height: 1.52;
+
+
+  }
+  a.social-link {
+    font-size: 12px;
+    margin-top: 20px;
+    margin-bottom: 40px;
+    font-weight: 700;
+  }
+  a.social-link:hover{
+    font-weight: 700;
+  }
+  .container-module{
+    padding-left: 6vw;
+      padding-right: 6vw;
+      max-width: 112vw;
+  }
+  .footer-module{
+    display: flex;
+      justify-content: space-between;
+      margin: 0 -1.25rem;
+  }
+  .footer-module-section{
+    margin: 0 1.25rem;
+    display: block;
+  }
+  .footer-module-title{
+    margin-bottom: .5rem;
+    font-size: 24px;
+    line-height: 36px;
+    display: block;
+  }
+  .footer-module-content{
+    max-width: 22em;
+    font-size: calc(16px + (400vw - 4096px)/1376);
+    line-height: calc(22px + (600vw - 6144px)/1376);
+  }
+  footer {
+    text-align: center;
+    bottom: 0;
 
   }
 
