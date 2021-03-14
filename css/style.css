@@ -26,14 +26,6 @@ header {
   position: relative;
 }
 
-.navtoggle {
-
-}
-
-#myNavtoggle {
-
-}
-
 
 h1, h2, h3, h4 {
   font-family: 'maiola', serif;
@@ -83,23 +75,35 @@ h4 {
 
 a, p, li {
   font-family: 'Heebo', sans-serif;
-  font-weight: 100;
+  font-weight: 200;
   font-size: 1.40em;
 }
 img {
   width: 100%;
 }
+
 a {
   color: #222222;
-  /*text-decoration: none; /* No underlining */
   display: inline-block; /* since the <a> tag is inline by default, we need to change this to inline-block, but more on this in the next exercise */
   /*transform: translate(0px, 0px);
   transition: all 100ms ease-in-out;*/
-  color: #222222; /* needed to override the default link color */
-  font-weight: 400;
+  text-decoration: none;
+  background-image: linear-gradient(currentColor, currentColor);
+  background-position: 50% 90%;
+  background-repeat: no-repeat;
+  background-size: 40% 1px;
+  transition: 0.2s ease-out all .1s;
+  font-weight: 100;
   font-size:20px;
   padding: 5px;
+
 }
+
+
+a:hover, a:focus {
+    background-size: 80% 1px;
+}
+
 
 a:visited { /* visited link */
   color: #222222;
@@ -109,34 +113,20 @@ a:hover {
   /*margin-right: 14px;*/
   /*border: 1px solid #222222;*/
   /*background-color: #ffffff;*/
-  color: #222222;
-  perspective-origin: 50% 100%;
+  /*perspective-origin: 50% 100%;*/
   /*transform: scale(1.5);*/
-  font-weight: 400;
-  text-decoration: none;
-}
-a:active { /* selected link */
+  font-weight: 100;
+  /*text-decoration: none;*/
 
+}
+
+a:active { /* selected link */
 }
 
 a:focus {
-  color: #222222;
-
-}
-.box-c .custom-underline::after {
-top: 65%;
-height: 2px !important;
-width: 40%;
-left: 30%;
-background-color: rgba(255, 255, 255, 0.6);
-  transition: 0.4s ease-out all .1s;
 }
 
-.box-c:hover .custom-underline::after {
-width: 90%;
-left: 5%;
-  transition: 0.5s ease all;
-}
+
 
 main {
   padding-top: 56px;
@@ -426,10 +416,14 @@ nav > ul > li > a:active {
 
 }
 
-.social-link {
+a.social-link {
   font-size: 12px;
   margin-top: 20px;
   margin-bottom: 40px;
+  font-weight: 400;
+}
+a.social-link:hover{
+  font-weight: 400;
 }
 
 
