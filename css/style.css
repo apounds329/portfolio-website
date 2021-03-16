@@ -838,7 +838,7 @@ Large devices (1024px or larger)
     flex direction: column;
 
   }
-  .case-text-column: nth-child (2) {
+  .case-text-column: nth-child(2) {
     width: 580px;
     display: block;
 
@@ -877,6 +877,21 @@ Large devices (1024px or larger)
       font-style: normal;
       font-size: 1.1428571429rem;
       line-height: 2;
+  }
+  .wide-center{
+    max-width:1404px;
+    margin-right: auto;
+    margin-left: auto;
+    padding-right: 45px;
+    padding-left: 45px;
+  }
+  .my-role {
+    position: relative;
+  }
+  .my-role .case-text-categories {
+    position: absolute;
+    bottom: 30px;
+    left:0;
   }
 
   ul {
