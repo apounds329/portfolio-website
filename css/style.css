@@ -211,7 +211,43 @@ main {
 
 
 }
+.case-content {
+  margin-top:65px;
+  position: relative;
+}
+.case-content-headline {
+  font-family: 'Heebo', sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: .6428571429rem;
+    letter-spacing: .37em;
+    line-height: 1;
+    text-transform: uppercase;
+}
+.case-text-headline {
+  margin-bottom: 25px;
+}
+.case-text-categories {
+  margin-top: 20px;
+  margin-bottom: 25px;
+  display: flex;
+  flex-wrap: wrap;
+  font-family: 'Heebo',sans-serif;
+font-weight: 300;
+font-style: normal;
+font-size: 1.2857142857rem;
+line-height: 1.7777777778;
+}
 
+ul {
+  list-style: none;
+}
+
+.col-md-6 {
+  display: block;
+}
+
+.col-lg-4{}
 
 
 
@@ -758,7 +794,7 @@ Medium devices (640px and larger)
 }
 
 /* ==============================
-Large devices (1024px or larger)
+Large devices (1024px or larger)///////////////////////////1024////////////////////////////
 ================================= */
 @media only screen and (min-width: 1024px) {
 
