@@ -23,10 +23,10 @@ body {
 
 
 header {
-  background-color: #f6eae3;
+  /*background-color: #f6eae3;*/
   width: 100%;
   padding: 10px 0 4px;
-  box-shadow:  0px 1px 12px 0px rgba(50, 50, 50, 0.46);
+  /*box-shadow:  0px 1px 12px 0px rgba(50, 50, 50, 0.46);*/
   position: relative;
 }
 
@@ -38,7 +38,7 @@ h1, h2, h3, h4 {
 h1 {
   font-size: 5em;
   font-weight: 700;
-  line-height: 1.0;
+  line-height: 0.85;
   vertical-align: baseline;
   letter-spacing: -4px;
 
@@ -80,7 +80,8 @@ h4 {
 a, p, li {
   font-family: 'Heebo', sans-serif;
   font-weight: 300;
-  font-size: 1.40em;
+  /*font-size: 1.40em;*/
+  font-size: 1.25em;
 }
 
 .project-content p {
@@ -98,7 +99,7 @@ a {
   transition: all 100ms ease-in-out;*/
   text-decoration: none;
   background-image: linear-gradient(currentColor, currentColor);
-  background-position: 0% 90%;
+  background-position: 0% 80%;
   background-repeat: no-repeat;
   background-size: 110% 1px;
   transition: 0.2s ease-out all .1s;
@@ -110,7 +111,7 @@ a {
 
 
 a:hover, a:focus {
-    background-size: 80% 1px;
+    background-size: 75% 1px;
 }
 
 
@@ -144,7 +145,7 @@ a:focus {
 }
 
 .footer-module {
-  margin-left: 35px;
+  /*margin-left: 35px;*/
   margin-right: 35px;
 }
 
@@ -228,8 +229,8 @@ main {
 .case-header-introduction {
   font-family: 'Heebo', sans-serif;
   font-weight: 200;
-  font-size: 1.8rem;
-  line-height: 1.1;
+  font-size: 1.875rem;
+  line-height: 1.14;
 }
 
 .case-header-metas {
@@ -370,6 +371,7 @@ a:hover {
 
 }
 .home-projects-title {
+  margin-top: 60px;
   position: relative;
   font-family: 'maiola', serif
   z-index: 2;
@@ -457,7 +459,7 @@ nav > ul {
 .navtoggle.responsive li  {
   display: block;
   padding: 10px 0;
-  border-top: 1px solid rgba(255,127,80,0.5);
+  /*border-top: 1px solid rgba(255,127,80,0.5);*/
 }
 
 .navtoggle.responsive li:last-child  {
@@ -466,6 +468,7 @@ nav > ul {
 
 nav > ul > li > a {
   padding: 0;
+  font-size: 16px;
   margin: 0 5px;
   text-transform: lowercase;
   font-weight: 300;
@@ -736,6 +739,12 @@ Medium devices (640px and larger)
     clear: both;
     display: table;
   }
+  .case-next-title{
+    font-family: 'maiola', serif;
+      font-weight: 500;
+      font-size: 60px;
+      line-height: 1.2;
+  }
 
 }
 
@@ -747,7 +756,7 @@ Large devices (1024px or larger)
   h1 {
     font-size: 8em;
     font-weight: 700;
-    line-height: 1.0;
+    line-height: 0.85;
     vertical-align: baseline;
     letter-spacing: -4px;
 
@@ -790,7 +799,7 @@ Large devices (1024px or larger)
 
   .case-header-introduction {
     font-family:'Heebo', sans-serif;
-    font-weight: 200;
+    font-weight: 100;
     font-size: 2.5rem;
     line-height: 1.1;
   }
@@ -817,68 +826,131 @@ Large devices (1024px or larger)
     line-height: 1;
 
   }
-  .home-hero-content {
-    height: auto;
-    width: 345px;
-    margin-top: 145px;
-    margin-right: 60px;
-    margin-left: auto;
-    font-family: 'Heebo', sans-serif;
-    font-weight: 400;
-    font-size: 1rem;
-    line-height:1.7;
+  .case-content {
+    margin-top: 105px;
+    position: relative;
   }
-  .lead {
-    font-size: 14px;
-    line-height: 24px;
-    margin-bottom: 14px;
+
+  .case-text-column: first-child {
+    display: flex;
+    flex-grow: 1;
+    justify-content: space-between;
+    flex direction: column;
+
+  }
+  .case-text-column: nth-child (2) {
+    width: 580px;
+    display: block;
+
+  }
+  .case-text-tagline {
+    margin-bottom: 30px;
     font-family: 'Heebo', sans-serif;
     font-weight: 300;
-    color: #222222
-
-
+    font-style: normal;
+    font-size: 1.2857142857rem;
+    line-height: 1.7777777778;
   }
-  a.social-link {
-    font-size: 12px;
-    margin-top: 20px;
-    margin-bottom: 40px;
+  .case-content-headline {
+    font-family: 'Heebo', sans-serif;
     font-weight: 700;
-  }
-  a.social-link:hover{
-    font-weight: 700;
-  }
-  .container-module{
-    padding-left: 6vw;
-      padding-right: 6vw;
-      max-width: 112vw;
-  }
-  .footer-module{
-    display: flex;
-      justify-content: space-between;
-      margin: 0 -1.25rem;
-  }
-  .footer-module-section{
-    margin: 0 1.25rem;
-    display: block;
-  }
-  .footer-module-title{
-    margin-bottom: .5rem;
-    font-size: 24px;
-    line-height: 36px;
-    display: block;
-  }
-  .footer-module-content{
-    max-width: 22em;
-    font-size: calc(16px + (400vw - 4096px)/1376);
-    line-height: calc(22px + (600vw - 6144px)/1376);
-  }
-  footer {
-    text-align: center;
-    bottom: 0;
-
+    font-style: normal;
+    font-size: .6428571429rem;
+    letter-spacing: .37em;
+    line-height: 1;
+    text-transform: uppercase;
   }
 
+  .case-text-headline {
+    margin-top: 12px;
+  }
+  .case-text-categories {
+    font-family: 'Heebo', sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 1.2857142857rem;
+    line-height: 1.7777777778;
+  }
+  .case-text-content p{
+    font-family: 'Heebo',sans-serif;
+      font-weight: 300;
+      font-style: normal;
+      font-size: 1.1428571429rem;
+      line-height: 2;
+  }
+
+  ul {
+    list-style: none;
+    display: block;
+    margin-block-start: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 40px;
 }
+
+      }
+      .home-hero-content {
+        height: auto;
+        width: 345px;
+        margin-top: 145px;
+        margin-right: 60px;
+        margin-left: auto;
+        font-family: 'Heebo', sans-serif;
+        font-weight: 400;
+        font-size: 1rem;
+        line-height:1.7;
+      }
+      .lead {
+        font-size: 14px;
+        line-height: 24px;
+        margin-bottom: 14px;
+        font-family: 'Heebo', sans-serif;
+        font-weight: 300;
+        color: #222222
+
+
+      }
+      a.social-link {
+        font-size: 12px;
+        margin-top: 20px;
+        margin-bottom: 40px;
+        font-weight: 700;
+      }
+      a.social-link:hover{
+        font-weight: 700;
+      }
+      .container-module{
+        padding-left: 6vw;
+          padding-right: 6vw;
+          max-width: 112vw;
+      }
+      .footer-module{
+        display: flex;
+          justify-content: space-between;
+          margin: 0 -1.25rem;
+      }
+      .footer-module-section{
+        margin: 0 1.25rem;
+        display: block;
+      }
+      .footer-module-title{
+        margin-bottom: .5rem;
+        font-size: 24px;
+        line-height: 36px;
+        display: block;
+      }
+      .footer-module-content{
+        max-width: 22em;
+        font-size: calc(16px + (400vw - 4096px)/1376);
+        line-height: calc(22px + (600vw - 6144px)/1376);
+      }
+      footer {
+        /*text-align: center;*/
+        bottom: 0;
+
+      }
+
+    }
 
 
 /* ==============================
