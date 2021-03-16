@@ -848,10 +848,11 @@ Large devices (1024px or larger)
     font-family: 'Heebo', sans-serif;
     font-weight: 300;
     font-style: normal;
-    font-size: 1.2857142857rem;
-    line-height: 1.7777777778;
+    font-size: 18px;
+    line-height: 32px;
   }
   .case-content-headline {
+    margin-top: 30px;
     font-family: 'Heebo', sans-serif;
     font-weight: 700;
     font-style: normal;
@@ -868,18 +869,18 @@ Large devices (1024px or larger)
     font-family: 'Heebo', sans-serif;
     font-weight: 300;
     font-style: normal;
-    font-size: 1.2857142857rem;
-    line-height: 1.7777777778;
+    font-size: 16px;
+    line-height: 32px;
   }
   .case-text-content p{
     font-family: 'Heebo',sans-serif;
       font-weight: 300;
       font-style: normal;
-      font-size: 1.1428571429rem;
+      font-size: 16px;
       line-height: 2;
   }
   .wide-center{
-    max-width:1404px;
+    max-width:1024px;
     margin-right: auto;
     margin-left: auto;
     padding-right: 45px;
@@ -893,6 +894,19 @@ Large devices (1024px or larger)
     bottom: 30px;
     left:0;
   }
+  .col-lg-4 {
+    width: 30%;
+  }
+
+  .col-lg-6 {
+    width: 80%;
+  }
+
+  .col-lg-8 {
+    width: 70%
+  }
+
+
 
   ul {
     list-style: none;
