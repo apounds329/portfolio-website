@@ -710,6 +710,14 @@ Medium devices (640px and larger)
 .navtoggle li:last-child {
   display: none;
 }
+.navtoggle.responsive li  {
+  border-top:0;
+  padding: 0;
+}
+.navtoggle.responsive nav {
+  padding top:0;
+  
+}
   .col-md-6 {
     width: 50%;
   }
