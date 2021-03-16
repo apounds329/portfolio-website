@@ -33,6 +33,7 @@ header {
   /*position: relative;*/
   position: fixed;
   transition: top 0.2s ease-in-out;
+  z-index:999;
 }
 .nav-up {
   top: -40px;
@@ -217,7 +218,7 @@ main {
 /* CultureQuest */
 }
 .center {
-  max-width: 1024px;
+  /*max-width: 1024px;*/
   margin-right:auto;
   margin-left: auto;
   padding-right: 35px;
