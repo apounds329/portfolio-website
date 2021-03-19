@@ -451,6 +451,26 @@ div {
     padding-right: 35px;
 }
 
+.contact-wrapper {
+  padding: 4rem 0 5rem;
+    pointer-events: none;
+    position: relative;
+}
+.container-module-container {
+  flex-grow: 1;
+margin: 0 auto;
+padding-left: 6vw;
+padding-right: 6vw;
+max-width: none;
+}
+.footer-1 {
+  max-width: 10em;
+  user-select: none;
+    font-size: 36px;
+    line-height: 40px;
+    letter-spacing: -1.5px;
+}
+
 #work .row {
   padding-bottom: 25px;
   border-bottom: 1px solid #4a4a4a;
@@ -969,8 +989,8 @@ Large devices (1024px or larger)///////////////////////////1024/////////////////
       }
       .home-hero-content {
         height: auto;
-        width: 345px;
-        margin-top: 145px;
+        width: 100%;
+        margin-top: 110px;
         margin-right: 60px;
         margin-left: auto;
         font-family: 'Heebo', sans-serif;
@@ -1003,7 +1023,7 @@ Large devices (1024px or larger)///////////////////////////1024/////////////////
           max-width: 112vw;
       }
       .footer-module{
-        display: flex;
+        display: block;
           justify-content: space-between;
           margin: 0 -1.25rem;
       }
