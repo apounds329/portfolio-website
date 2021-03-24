@@ -22,7 +22,6 @@ body {
 
 
 
-
 header {
   /*background-color: #f6eae3;*/
   height:40px;
@@ -99,7 +98,15 @@ a, p, li {
 
 img {
   width: 100%;
+
 }
+
+.header-image {
+height: 450px;
+margin-left: -35px;
+width: 100vw;
+}
+
 
 a {
   color: #222222;
@@ -200,8 +207,18 @@ main {
   font-weight: 300;
   color: #222222
 
-
 }
+
+.about-item-title {
+  font-family: 'Heebo',sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    letter-spacing: -.04em;
+    font-size: 2.0rem;
+    line-height: 1.2857142857;
+}
+
+
 .case-content {
   margin-top:65px;
   position: relative;
@@ -339,7 +356,16 @@ a:hover {
 
   }
 
+/* About */
+.about-title {
+  font-family: 'maiola',serif;
+font-weight: 500;
+font-style: normal;
+letter-spacing: -.04em;
+line-height: .9230769231;
+font-size: 3.2rem;
 
+}
 
 /* Layout styling */
 
@@ -922,6 +948,11 @@ Large devices (1024px or larger)///////////////////////////1024/////////////////
 
   }
 
+  .header-image {
+    height: auto;
+    margin-left:auto;
+  width: 100%;
+  }
 
   .col-lg-7 {
     width: 58.33%;
@@ -1242,6 +1273,18 @@ line-height: 30px;
     max-width: 15em;
 }
 
+/*ABOUT*/
+
+.about-title {
+  font-family: 'maiola',serif;
+font-weight: 500;
+font-style: normal;
+letter-spacing: -.04em;
+line-height: .9230769231;
+font-size: 5.0rem;
+
+}
+
 
 
 button {
@@ -1251,6 +1294,7 @@ button {
   cursor: pointer;
   padding: 0;
 }
+
 
 .ear-left-outer, .ear-right-outer {fill:#919191;}
 .ear-left-inner, .ear-right-inner {fill:#6D6D6D;}
@@ -1290,7 +1334,9 @@ button {
   font-size: 22px;
   line-height: 30px;
 }*/
+
 }
+
 /* ==============================
 X-large devices (1440px or larger)
 ================================= */

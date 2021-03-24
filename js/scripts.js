@@ -91,7 +91,7 @@ window.setInterval(() => earWiggle.play(0), 2500);
 
 // ------------
 // Eye tracking
-// ------------
+// -------------
 
 const eyeRightPupil = document.querySelector('.eye-right-pupil');
 const eyeLeftPupil = document.querySelector('.eye-left-pupil');
@@ -114,3 +114,5 @@ function updateEyePosition(e) {
   eyeLeftPupil.style.transform = `translate(${posX}px, ${posY}px)`;
   eyeRightPupil.style.transform = `translate(${posX}px, ${posY}px)`;
 }
+
+///////////
