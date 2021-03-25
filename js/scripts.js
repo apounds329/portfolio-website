@@ -8,6 +8,8 @@ function menuToggle() {
     x.className = 'navtoggle';
   }
 }
+
+
 // Hide Header on on scroll down
 var didScroll;
 var lastScrollTop = 0;
