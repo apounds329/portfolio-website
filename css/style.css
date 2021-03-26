@@ -302,13 +302,13 @@ ul {
   transform: translate(0px, 0px);
   transition: all 100ms ease-in-out;
   border-style: solid;
-  color: #222222; /* needed to override the default link color */
+  color: #222; /* needed to override the default link color */
   font-weight: 400;
   font-size: 20px;
-  /* padding: 10px; */
   border-radius: 50px;
   background-image: none;
 }
+
 .button:hover {
   margin-right: 14px;
   border: 1px solid #222;
@@ -429,11 +429,10 @@ font-size: 3.2rem;
   position: relative;
   font-family: 'maiola', serif;
   z-index: 2;
-  color: #2222222;
+  color: #222;
   letter-spacing: .5em;
-  line-height:1;
+  line-height: 1;
   text-transform: uppercase;
-
 }
 
 section {
@@ -605,11 +604,12 @@ nav > ul {
 nav > ul > li > a {
   padding: 0;
   font-size: 16px;
-  margin: 0 5px;
+  margin: 0 3px;
   text-transform: lowercase;
   font-weight: 300;
-  color: #222222;
+  color: #222;
 }
+
 nav > ul > li > a:visited {
 
 }
