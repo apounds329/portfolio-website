@@ -17,10 +17,7 @@ body {
   font-weight: 400; /* Sets the font weight to 400 */
   line-height: 1.6; /* Sets the line-height to 1.6 * the font-size */
   -webkit-font-smoothing: antialiased;
-
 }
-
-
 
 header {
   /*background-color: #f6eae3;*/
@@ -34,6 +31,7 @@ header {
   transition: top 0.2s ease-in-out;
   z-index:999;
 }
+
 .nav-up {
   top: -40px;
 }
@@ -43,13 +41,13 @@ h1, h2, h3, h4 {
   font-family: 'maiola', serif;
   line-height: 1.4;
 }
+
 h1 {
   font-size: 5em;
   font-weight: 700;
   line-height: 0.85;
   vertical-align: baseline;
   letter-spacing: -4px;
-
 }
 
 h2 {
@@ -70,16 +68,14 @@ h2 {
   text-transform: uppercase;
   text-align: left;
   letter-spacing:3.33px;
-
 }
 
 h3 {
   font-size: 2.5em;
   font-weight: 400;
   margin: 0;
-
-
 }
+
 h4 {
   font-size: 1.35em;
   font-weight: 400;
@@ -98,7 +94,6 @@ a, p, li {
 
 img {
   width: 100%;
-
 }
 
 .header-image {
@@ -106,7 +101,6 @@ height: 450px;
 margin-left: -35px;
 width: 100vw;
 }
-
 
 a {
   color: #222222;
@@ -122,9 +116,7 @@ a {
   font-weight: 300;
   font-size:16px;
   padding: 2px;
-
 }
-
 
 a:hover, a:focus {
     background-size: 75% 1px;
@@ -258,18 +250,18 @@ ul {
 .col-lg-4{}
 
 
-
 /* CultureQuest */
-}
+
 .center {
   /*max-width: 1024px;*/
-  margin-right:auto;
+  margin-right: auto;
   margin-left: auto;
   padding-right: 35px;
   padding-left: 35px;
 }
+
 .case-header-inner {
-  margin-left:auto;
+  margin-left: auto;
 }
 
 .case-header-headline {
@@ -279,6 +271,7 @@ ul {
   line-height: 1.3;
   letter-spacing: 1.2px;
 }
+
 .case-header-introduction {
   font-family: 'Heebo', sans-serif;
   font-weight: 200;
@@ -302,10 +295,8 @@ ul {
 
 .button {
   display: inline-block; /* since the <a> tag is inline by default, we need to change this to inline-block, but more on this in the next exercise */
-  padding:12px 18px 8px;
+  padding: 12px 18px 8px;
   background-color: #e2e2e2;
-  border-color: #e2e2e2;
-  border-width: 1px;
   border-color: #e2e2e2;
   border-width: 1px;
   transform: translate(0px, 0px);
@@ -313,21 +304,22 @@ ul {
   border-style: solid;
   color: #222222; /* needed to override the default link color */
   font-weight: 400;
-  font-size:30px
-  padding: 10px;
+  font-size: 20px;
+  /* padding: 10px; */
   border-radius: 50px;
   background-image: none;
 }
 .button:hover {
   margin-right: 14px;
-  border: 1px solid #222222;
-  background-color: #ffffff;
-  color: #222222;
+  border: 1px solid #222;
+  background-color: #fff;
+  color: #222;
   perspective-origin: 50% 100%;
   transform: scale(1.5);
   font-weight: 700;
   text-decoration: none;
 }
+
 a:hover {
   opacity: 1;
   outline: 0;
@@ -403,7 +395,6 @@ font-size: 3.2rem;
 .home-hero-content {
   width: 100%;
   margin-top: 40px;
-
 }
 
 .home-hero-content a::before {
@@ -412,13 +403,13 @@ font-size: 3.2rem;
   margin-right: 10px;
   margin-left: 10px;
   vertical-align: middle;
-
 }
+
 .home-hero-content a:first-of-type::before {
   display: none;
   margin-left: 0;
-
 }
+
 .center {
   max-width: 1024px;
   margin-right: auto;
@@ -431,12 +422,12 @@ font-size: 3.2rem;
   height: auto;
   width: 100%;
   margin-top: 80px
-
 }
+
 .home-projects-title {
   margin-top: 60px;
   position: relative;
-  font-family: 'maiola', serif
+  font-family: 'maiola', serif;
   z-index: 2;
   color: #2222222;
   letter-spacing: .5em;
@@ -461,12 +452,13 @@ div {
 .home-projects. center {
   position: relative;
 }
+
 .row {
   margin: 25px 0; /* 25px top and bottom, 0 left and right */
   margin-right: auto;
-    margin-left: auto;
-    padding-left: 35px;
-    padding-right: 35px;
+  margin-left: auto;
+  padding-left: 35px;
+  padding-right: 35px;
 }
 
 .contact-wrapper {
@@ -535,9 +527,9 @@ box-sizing: inherit;
 }
 
 .footer-module-content {
-/*  font-size: 18px;*/
-    line-height: 24px;
-    letter-spacing: -.015em;
+/*  font-size: 18px; */
+line-height: 24px;
+letter-spacing: -0.015em;
 cursor: auto;
 max-width: 16em;
 }
@@ -546,43 +538,44 @@ max-width: 16em;
   padding-bottom: 25px;
   border-bottom: 1px solid #4a4a4a;
   margin: 25px 0;
-
 }
 
 #hero h1 {
   text-align: center;/* Centers text */
-
 }
+
 #footer {
   padding-top: 15px;
-  padding-bottom: 15px
+  padding-bottom: 15px;
 }
+
 #footerpadding {
   padding: 15px;
   box-sizing: border-box;
-
 }
 
 .logo {
   max-width: 150px;
   min-width: 641px;
-  margin:0 auto;
+  margin: 0 auto;
   display: block;
-
 }
-
 
 nav > ul {
   list-style-type: none;
   padding: 0;
   margin: 0;
 }
+
 .navtoggle li:not(:last-child) {
   display: none;
 }
-.navtoggle, .navtoggle.responsive {
+
+.navtoggle,
+.navtoggle.responsive {
   position: relative;
 }
+
 .navtoggle li .icon {
   position: absolute;
   right: 0;
@@ -590,13 +583,16 @@ nav > ul {
   font-size: 20px;
   padding-right: 0;
 }
-.navtoggle.responsive li  {
+
+.navtoggle.responsive li {
   display: block;
 }
+
 .navtoggle.responsive nav {
   padding: 24px 0 0;
 }
-.navtoggle.responsive li  {
+
+.navtoggle.responsive li {
   display: block;
   padding: 10px 0;
   /*border-top: 1px solid rgba(255,127,80,0.5);*/
@@ -893,11 +889,7 @@ font-family: 'Heebo',sans-serif;
 
 }
 
-
-
-/*---------------MEDIA QUERIES---------------------------------------------------*/
-
-
+/* ---------------MEDIA QUERIES--------------------------------------------------- */
 /* ==============================
 Medium devices (640px and larger)
 ================================= */
@@ -916,15 +908,19 @@ Medium devices (640px and larger)
     width: auto;
     float: right;
   }
+
   nav > ul {
-  margin: 1em 0;
+   margin: 1em 0;
 }
+
   nav > ul > li {
     display: inline-block;
   }
+
   .navtoggle li:not(:last-child) {
   display: inline-block;
 }
+
 .navtoggle li:last-child {
   display: none;
 }
@@ -933,7 +929,7 @@ Medium devices (640px and larger)
   padding: 0;
 }
 .navtoggle.responsive nav {
-  padding top:0;
+  padding-top:0;
 
 }
   .col-md-6 {
@@ -954,13 +950,13 @@ Medium devices (640px and larger)
     clear: both;
     display: table;
   }
-  .case-next-title{
-    font-family: 'maiola', serif;
-      font-weight: 500;
-      font-size: 60px;
-      line-height: 1.2;
-  }
 
+  .case-next-title {
+    font-family: 'maiola', serif;
+    font-weight: 500;
+    font-size: 60px;
+    line-height: 1.2;
+  }
 }
 
 /* ==============================
@@ -1009,12 +1005,12 @@ Large devices (1024px or larger)///////////////////////////1024/////////////////
     background: #F5F5F5;
   }
 
-  .center{
-    max-width:1024px;
+  .center {
+    max-width: 1024px;
     margin-right: auto;
     margin-left: auto;
-    padding-right:45px;
-    padding-left:45px;
+    padding-right: 45px;
+    padding-left: 45px;
   }
 
   .case-header-introduction {
@@ -1023,18 +1019,20 @@ Large devices (1024px or larger)///////////////////////////1024/////////////////
     font-size: 2.5rem;
     line-height: 1.1;
   }
+
   .case-header-inner {
     max-width: 580px;
     margin-left: auto;
   }
+
   .case-header-headline {
     margin-bottom: 75px;
     font-family: 'maiola', serif;
     font-size: 1.0rem;
     line-height:1.3;
     letter-spacing: 1.2px;
-
   }
+
   .case-header-metas {
     justify-content: space-between;
     margin-top: 100px;
@@ -1055,7 +1053,7 @@ Large devices (1024px or larger)///////////////////////////1024/////////////////
     display: flex;
     flex-grow: 1;
     justify-content: space-between;
-    flex direction: column;
+    flex-direction: column;
 
   }
   .case-text-column: nth-child(2) {
