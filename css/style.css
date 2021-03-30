@@ -171,8 +171,105 @@ p {
 
 main {
   padding-top: 56px;
-
 }
+
+figure {
+  margin: 0;
+padding: 0;
+border: 0;
+font-size: 100%;
+font: inherit;
+vertical-align: baseline;
+margin-block-start: 1em;
+margin-block-end: 1em;
+margin-inline-start: 40px;
+margin-inline-end: 40px;
+display: block;
+}
+
+
+.cases-list {
+  margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+
+.cases-list-container {
+  margin-right: 0;
+margin-left: 0;
+display: flex;
+flex-wrap: wrap;
+margin-bottom: -45px;
+    transition: opacity .6s cubic-bezier(.165,.84,.44,1);
+}
+
+.cases-item {
+  width: 100%;
+margin-right: 0;
+margin-left: 0;
+position: relative;
+height: auto;
+margin-bottom: 45px;
+}
+
+.cases-item-link {
+  position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    z-index: 1;
+}
+
+.cases-item-picture {
+  height: 320px;
+  position: relative;
+  width: 100%;
+  overflow: hidden;
+}
+
+.cases-item-picture img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    display: block;
+  }
+
+.object-fit .cases-item-picture img {
+    object-fit: cover;
+    object-position: 50% 0;
+  }
+
+.cases-item-content {
+  margin-top: 30px;
+  text-align: center;
+}
+
+.cases-item-title {
+  font-family: 'maiola',serif;
+font-weight: 500;
+font-style: normal;
+color: #222;
+font-size: 1.2142857143rem;
+line-height: 1;
+}
+
+.cases-item-text {
+  margin-top: 10px;
+font-family: 'Heebo',sans-serif;
+font-weight: 400;
+font-style: normal;
+color: #222;
+font-size: 1rem;
+line-height: 1;
+}
+
+
 .site-header-button {
     position: relative;
     height: 30px;
@@ -1218,6 +1315,89 @@ Large devices (1024px or larger)///////////////////////////1024/////////////////
         line-height: 36px;
         display: block;
       }*/
+
+      .cases-list {
+        margin: 0;
+          padding: 0;
+          border: 0;
+          font-size: 100%;
+          font: inherit;
+          vertical-align: baseline;
+      }
+
+      .cases-list-container {
+        margin-right: 0;
+      margin-left: 0;
+      display: flex;
+      flex-wrap: wrap;
+  margin-right: -20px;
+  margin-bottom: -45px;
+  margin-left: -20px;
+  transition: opacity .6s cubic-bezier(.165,.84,.44,1);
+      }
+
+      .cases-item {
+        position: relative;
+      height: auto;
+      width: calc(50% - 40px);
+      margin-right: 20px;
+      margin-bottom: 45px;
+      margin-left: 20px;
+      }
+
+      .cases-item-link {
+        position: absolute;
+          top: 0;
+          left: 0;
+          height: 100%;
+          width: 100%;
+          z-index: 1;
+      }
+
+      .cases-item-picture {
+        position: relative;
+height: 575px;
+width: 100%;
+overflow: hidden;
+}
+      .cases-item-picture img {
+position: absolute;
+top: 0;
+left: 0;
+height: 100%;
+width: 100%;
+display: block;
+      }
+
+.object-fit .cases-item-picture img {
+  object-fit: cover;
+object-position: 50% 0;
+}
+
+
+      .cases-item-content {
+        margin-top: 30px;
+        text-align: center;
+      }
+
+      .cases-item-title {
+        font-family: 'maiola',serif;
+      font-weight: 500;
+      font-style: normal;
+      color: #222;
+      font-size: 1.2142857143rem;
+      line-height: 1;
+      }
+
+      .cases-item-text {
+        margin-top: 10px;
+      font-family: 'Heebo',sans-serif;
+      font-weight: 400;
+      font-style: normal;
+      color: #222;
+      font-size: 1rem;
+      line-height: 1;
+      }
 
 
       footer {
