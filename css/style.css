@@ -242,6 +242,7 @@ margin-bottom: 45px;
   position: relative;
   width: 100%;
   overflow: hidden;
+  
 }
 
 .cases-item-picture img {
@@ -251,6 +252,7 @@ margin-bottom: 45px;
     height: 100%;
     width: 100%;
     display: block;
+    object-fit: cover;
   }
 
 .object-fit .cases-item-picture img {
