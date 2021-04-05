@@ -1789,7 +1789,7 @@ html, body {
 }
 .slider__contents {
   height: 100%;
-  text-align: left;
+  text-align: center;
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
