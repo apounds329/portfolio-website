@@ -119,6 +119,10 @@ margin-left: -35px;
 width: 100vw;
 }
 
+a-1 {
+
+}
+
 a {
   color: #222222;
   display: inline-block; /* since the <a> tag is inline by default, we need to change this to inline-block, but more on this in the next exercise */
@@ -1841,6 +1845,7 @@ html, body {
   opacity: .5;
   font-family: 'Maiola';
   font-weight: bold;
+
 }
 .slider__txt {
   font-size: 22px;
@@ -1959,7 +1964,8 @@ body
 }
 .tile:hover
 {
-/*   background-color:#99aeff; */
+background-color:#252222;
+color:#f7f7ef;
 box-shadow: 0px 35px 77px -17px rgba(0,0,0,0.64);
   transform:scale(1.05);
 }
@@ -2047,6 +2053,212 @@ box-shadow: 0px 35px 77px -17px rgba(0,0,0,0.64);
     text-align: center;
     transition: background 200ms;
 }
+
+.how-i-work-intro {
+  position: relative;
+  display: flex;
+  height: 50vh;
+-webkit-box-orient: vertical;
+-webkit-box-direction: normal;
+flex-direction: column;
+-webkit-box-pack: end;
+justify-content: flex-end;
+-webkit-box-align: center;
+align-items: center;
+
+}
+.dark-bold-text-xxl.center.bottom-margin {
+  display: none;
+    margin-bottom: 56px;
+    font-size: 5vw;
+}
+.dark-bold-text-xxl.center {
+  text-align: center;
+}
+.dark-bold-text-xxl {
+  margin-top: 0px;
+  font-family: 'Heebo', sans-serif;
+    color: #252222;
+    line-height: 1.5;
+    font-weight: 600;
+}
+.dark-reg-text-1.process-intro {
+  opacity: 1;
+  width: 75%;
+    font-size: 3vw;
+    text-align: center;
+}
+.dark-reg-text-1 {
+  margin-top: 0px;
+margin-bottom: 0px;
+font-family: Lora, sans-serif;
+color: #252222;
+line-height: 1.65;
+    font-weight: 400;
+}
+.all-caps-small-heading {
+  display: none;
+margin-bottom: 56px;
+font-family: 'Heebo', sans-serif;
+color: #252222;
+font-size: 1.25rem;
+line-height: 1.5;
+font-weight: 400;
+text-align: center;
+letter-spacing: 4px;
+text-transform: uppercase;
+}
+.how-i-work-process {
+  display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    flex-direction: column;
+-webkit-box-pack: start;
+justify-content: flex-start;
+-webkit-box-align: center;
+    align-items: center;
+}
+.hiw-sticky-header {
+  position: sticky;
+top: 0px;
+z-index: 999999999;
+display: flex;
+    width: 100%;
+    height: 130px;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    flex-direction: column;
+    -webkit-box-align: center;
+    align-items: center;
+background-color: #f7f7ef;
+box-shadow: 0 5px 12px 0 rgb(0 0 0 / 40%);
+will-change: transform, opacity;
+transform: translate3d(0px, -120px, 0px) scale3d(1, 1, 1) rotateX(
+0deg
+) rotateY(
+0deg
+) rotateZ(
+0deg
+) skew(
+0deg
+,
+0deg
+);
+transform-style: preserve-3d;
+opacity: 0;
+}
+
+
+.scroll-progress-bar {
+  width: 100%;
+height: 6px;
+background-color: #252222;
+transform-origin: 0% 50%;
+will-change: transform;
+    transform: translate3d(0px, 0px, 0px) scale3d(0, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg,0deg);
+    transform-style: preserve-3d;
+}
+
+.hiw-steps-wrapper {
+  position: relative;
+  display: flex;
+    width: 100%;
+    margin-top: auto;
+    margin-bottom: auto;
+    -webkit-box-pack: center;
+    justify-content: center;
+-webkit-box-align: center;
+align-items: center;
+}
+.process-step-1 {
+  position: absolute;
+    width: 90%;
+    will-change: transform, opacity;
+        transform: translate3d(0px, 0px, 0px) scale3d(1, 1, 1) rotateX(
+    0deg
+    ) rotateY(
+    0deg
+    ) rotateZ(
+    0deg
+    ) skew(
+    0deg
+    ,
+    0deg
+    );
+        transform-style: preserve-3d;
+        opacity: 0;
+}
+
+.dark-reg-text-m.center {
+  text-align: center;
+  margin-top: 0px;
+    margin-bottom: 0px;
+    font-family: 'Heebo', sans-serif;
+    color: #222222;
+    font-size: 1.5rem;
+    line-height: 1.75;
+    font-weight: 400;
+}
+
+.process-step-2 {
+  position: absolute;
+  width: 80%;
+  will-change: transform, opacity;
+  transform: translate3d(0px, -100px, 0px) scale3d(1, 1, 1) rotateX(
+0deg
+) rotateY(
+0deg
+) rotateZ(
+0deg
+) skew(
+0deg
+,
+0deg
+);
+  transform-style: preserve-3d;
+  opacity: 0;
+}
+.process-step-3 {
+  position: absolute;
+width: 80%;
+will-change: transform, opacity;
+transform: translate3d(0px, -100px, 0px) scale3d(1, 1, 1) rotateX(
+0deg
+) rotateY(
+0deg
+) rotateZ(
+0deg
+) skew(
+0deg
+,
+0deg
+);
+transform-style: preserve-3d;
+opacity: 0;
+}
+.process-step-4 {
+  position: absolute;
+    width: 80%;
+    will-change: opacity, transform;
+opacity: 0;
+transform: translate3d(0px, -100px, 0px) scale3d(1, 1, 1) rotateX(
+0deg
+) rotateY(
+0deg
+) rotateZ(
+0deg
+) skew(
+0deg
+,
+0deg
+);
+transform-style: preserve-3d;
+}
+
+
+
+
+
 }
 
 /* ==============================
