@@ -1921,12 +1921,6 @@ body
   font-family:'Heebo';
 
 }
-.tile a{
-  text-decoration: none;
-  color: #fff;
-  background-image: none;
-}
-
 .tile img
 {
   height:100%;
