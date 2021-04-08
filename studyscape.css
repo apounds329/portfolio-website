@@ -1907,7 +1907,7 @@ body
 .tile
 {
   width:380px;
-  height:575px;
+  height:380px;
   margin:10px;
   background-color:#99aeff;
   display:inline-block;
@@ -1921,12 +1921,6 @@ body
   font-family:'Heebo';
 
 }
-.tile a{
-  text-decoration: none;
-  color: #fff;
-  background-image: none;
-}
-
 .tile img
 {
   height:100%;
