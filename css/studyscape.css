@@ -1,8 +1,4 @@
-/*
-Colors used:
-Background: #FFF4ea not #f6eae3;
-Font: #2222222;
-*/
+
 * {
   box-sizing: border-box;
     margin: 0;
@@ -12,7 +8,7 @@ Font: #2222222;
 }
 body {
   padding-top:40px;
-  background-color: #fff4ea;
+  background-color: #1a1034;
   font-size: 16px; /* Sets the font size to 16px */
   font-weight: 400; /* Sets the font weight to 400 */
   line-height: 1.6; /* Sets the line-height to 1.6 * the font-size */

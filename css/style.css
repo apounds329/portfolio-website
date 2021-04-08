@@ -184,7 +184,7 @@ a:focus {
   margin-right: 35px;
 }
 
-.css-123 {
+a.bottom {
   padding: 24px;
   appearance: none;
   margin: 0;
@@ -1043,6 +1043,10 @@ footer {
   transform:translate(50%, -50%);
   z-index:2;
   line-height:1;
+}
+
+.tile a {
+  background-image: none;
 }
 
 /*-- no grid --*/
@@ -1907,8 +1911,8 @@ body
 .tile
 {
   width:380px;
-  height:575px;
-  margin:10px;
+  height:380px;
+  margin:10px 30px;
   background-color:#99aeff;
   display:inline-block;
   background-size:cover;
