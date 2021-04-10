@@ -117,11 +117,10 @@ img {
 height: 450px;
 margin-left: -35px;
 width: 100vw;
+object-fit: cover;
 }
 
-a-1 {
 
-}
 
 a {
   color: #222222;
@@ -606,6 +605,8 @@ div {
   margin-left: auto;
   padding-left: 35px;
   padding-right: 35px;
+  padding-top: 60px;
+  padding-bottom: 60px;
 }
 
 .contact-wrapper {
@@ -1415,6 +1416,7 @@ Large devices (1024px or larger)///////////////////////////1024/////////////////
     position: absolute;
     bottom: 30px;
     left:0;
+    padding: 55px;
   }
   .col-lg-4 {
     width: 30%;
@@ -1739,7 +1741,6 @@ button.hippo {
     opacity: .6;
     font-size: 12px;
     line-height: 12px;
-
 }
 .project-card-module-title {
   display: inline-block;
