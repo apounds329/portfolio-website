@@ -1,0 +1,48 @@
+
+body {
+  background-color: #191519;
+  color: #fff;
+}
+
+.case-content {
+  background-color: #fff;
+  color: #000;
+}
+.case-content p {
+  color: rgba(62,62,62,.6);
+}
+a {
+  color: #ff0069;
+}
+
+a.hover {
+  color: #ff0069;
+}
+
+.descriptor {
+  color: #ff0069;
+}
+
+ b {
+   color: #ff0069;
+ }
+
+.case-next-link {
+  color: #ff0069;
+}
+
+.home-projects-title {
+  color: #fff;
+}
+
+.fa-bars:before {
+  color: #ff0069;
+}
+
+li {
+  color: #ff0069;
+}
+
+.case-content-headline {
+  color: #9194a8;
+}
