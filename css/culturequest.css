@@ -1,7 +1,7 @@
 
 body {
-  background-color: #191519;
-  color: #fff;
+  background-color: #fff;
+  color: #857551;
 }
 
 .case-content {
@@ -9,26 +9,26 @@ body {
   color: #000;
 }
 .case-content p {
-  color: rgba(62,62,62,.6);
+  color: #857551;
 }
 a {
-  color: #ff0069;
+  color: #ff002c;
 }
 
 a.hover {
-  color: #ff0069;
+  color: #ff002c;
 }
 
 .descriptor {
-  color: #ff0069;
+  color: #ff002c;
 }
 
  b {
-   color: #ff0069;
+   color: #ff002c;
  }
 
 .case-next-link {
-  color: #ff0069;
+  color: #ff002c;
 }
 
 .home-projects-title {
@@ -36,13 +36,15 @@ a.hover {
 }
 
 .fa-bars:before {
-  color: #ff0069;
+  color: #ff002c;
 }
 
 li {
   color: #ff0069;
 }
 
-.case-content-headline {
-  color: #9194a8;
+
+
+.case-text-title {
+  color: #857551;
 }
