@@ -1,27 +1,31 @@
 
 body {
-  background-color: #1a1034;
+  background-color: #1e1429;
   color: #fff;
+}
+.case-content {
+  background-color: #fff;
+  color: #000;
 }
 
 a {
-  color: #8558ff;
+  color: #db4547;
 }
 
 a.hover {
-  color: #8558ff;
+  color: #db4547;
 }
 
 .descriptor {
-  color: #8558ff;
+  color: #db4547;
 }
 
  b {
-   color: #8558ff;
+   color: #db4547;
  }
 
 .case-next-link {
-  color: #8558ff;
+  color: #db4547;
 }
 
 .home-projects-title {
@@ -29,9 +33,24 @@ a.hover {
 }
 
 .fa-bars:before {
-  color: #8558ff;
+  color: #db4547;
 }
 
 li {
-  color: #8558ff;
+  color: #db4547;
+}
+.case-content-headline {
+  color: #888092;
+}
+
+.case-text-title {
+  color: #030d26;
+}
+
+.case-text-content {
+  color: #827392;
+}
+
+.case-text-tagline {
+  color: #827392;
 }
