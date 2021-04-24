@@ -7,6 +7,9 @@ body {
 nav > ul > li > a {
   color: #db4547;
 }
+nav > ul > li > a:visited{
+  color: #db4547;
+}
 .case-content {
   background-color: #fff;
   color: #000;
@@ -16,8 +19,11 @@ a {
   color: #db4547;
 }
 
-a.hover {
+a:hover {
   color: #db4547;
+}
+a:visited {
+  color:#db4547;
 }
 
 .descriptor {

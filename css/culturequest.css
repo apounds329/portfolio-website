@@ -4,6 +4,12 @@ body {
   color: #857551;
 }
 
+nav > ul > li > a {
+  color: #ff002c;
+}
+nav > ul > li > a:visited{
+  color: #ff002c;
+
 .case-content {
   background-color: #fff;
   color: #000;
