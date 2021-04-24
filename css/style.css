@@ -95,7 +95,7 @@ h3 {
 }
 
 h4 {
-  font-size: 8em;
+  font-size: 5em;
   font-weight: 700;
   line-height: 0.85;
   vertical-align: baseline;
@@ -3038,7 +3038,9 @@ text-decoration: none;
 vertical-align: middle;
 display: inline-block;
 }
-
+h4 {
+  font-size:8em;
+}
 }
 
 /* ==============================
