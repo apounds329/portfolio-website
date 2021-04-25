@@ -364,6 +364,7 @@ font-weight: 300;
 text-align: left;
 text-transform: none;
 font-family: 'Heebo';
+line-height: 1.5;
 }
 .div-block-companies.top.bio {
   border-top-style: none;
@@ -827,10 +828,11 @@ letter-spacing: 0.3px;
 
 .info-block-title {
   width: 200px;
-font-size: 34px;
+font-size: 45px;
 line-height: 1.0;
 padding-bottom: 16px;
 font-family: 'Maiola';
+font-weight: 500;
 
 }
 
@@ -2204,7 +2206,7 @@ text-transform: uppercase;
 }
 
 .info-block-title {
-      font-size: 45px;
+      font-size: 60px;
       font-weight: 600;
           width: 200px;
           line-height: 1.0;
@@ -2957,6 +2959,7 @@ border-top: 1px none #000;
   text-align: left;
   text-transform: none;
 font-family: 'Heebo';
+line-height: 1.5;
 }
 .image-5 {
   width: 50px;
