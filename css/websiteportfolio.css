@@ -1,0 +1,75 @@
+body {
+  background-color: #222;
+  color: #dadada;
+}
+span {
+  color: #beff28;
+  font-weight:600;
+}
+
+nav > ul > li > a {
+  color: #beff28;
+}
+nav > ul > li > a:visited{
+  color: #beff28;
+}
+.case-content {
+  background-color: #dadada;
+  color: #000;
+}
+p {
+  color: #222;
+}
+a {
+  color: #beff28;
+}
+
+a:hover {
+  color: #beff28;
+}
+a:visited {
+  color:#beff28;
+}
+
+.descriptor {
+  color: #beff28;
+}
+.case-header-introduction {
+  color: #dadada;
+}
+
+
+.case-next-link {
+  color: #db4547;
+}
+
+.home-projects-title {
+  color: #fff;
+}
+
+.fa-bars:before {
+  color: #beff28;
+}
+
+li {
+  color: #beff28;
+}
+.case-content-headline {
+  color: #222;
+}
+
+.case-text-title {
+  color: #222;
+}
+
+.case-text-content {
+  color: #222;
+}
+
+.case-text-tagline {
+  color: #222;
+}
+
+.case-header-metas {
+  color: #beff28;
+}
